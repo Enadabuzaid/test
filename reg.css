@@ -1,0 +1,86 @@
+body{
+    background: url('w2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+
+.sign{
+    margin:auto;
+    width: 250px;
+    border: 1px solid ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    padding: 150px 40px;
+    margin-top: 50px;
+    
+}
+
+h3{
+    margin: 0px 0px 0px 0px;
+    background:  #937c6c;
+	color:   #858fad;
+	height: 40px;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+input {
+    width: 100&;
+    margin-bottom: 10px; 
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    outline: none;
+    border: 2px #937c6c solid;
+    background: transparent;
+    box-sizing: border-box;
+    color:   #858fad;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+input[type=submit]{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    color: #858fad;
+    font-size: 16px;
+    font-family: Arial;
+    background: #937c6c;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    width: 150;
+    margin-left: 50px;
+    
+}
+
+input[type=submit]:hover {
+    background: aqua;
+    color: #262626;
+    
+}
+
+ p{
+    text-align: left;
+    font-size: 20px;
+    color: 858fad;
+     margin: 8px;
+}
+
+#c{
+    text-align: center;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+}
